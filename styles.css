@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     background-image: url(img/binary.jpg);
     color: white;
     width: 100%;
@@ -13,7 +12,7 @@ h1, p {
 form {
     margin: 0 auto;
     width: 600px;
-    background-color: grey;
+    background-color: rgb(38, 52, 59);
     padding: 35px 35px;
 }
 
