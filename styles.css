@@ -16,10 +16,20 @@ form {
 
 label {
     display: block;
-    margin: 20px 20px;
 }
 
-input {
-    display: block;
-    width: 100% ;
+input, select {
+    width: 100%;
+}
+
+.inline {
+    width: unset;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.question {
+    text-align: unset;
+    margin-bottom: 0;
 }
