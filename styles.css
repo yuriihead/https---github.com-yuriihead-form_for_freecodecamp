@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     width: 100%;
+    font-size: 20px;
 }
 
 h1, p {
@@ -10,26 +11,52 @@ h1, p {
 
 form {
     margin: 0 auto;
-    width: 500px;
+    width: 600px;
     background-color: grey;
+    padding: 35px 35px;
 }
 
 label {
     display: block;
+    
 }
 
-input, select {
+input, select, textarea {
     width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .inline {
     width: unset;
     margin: 0;
-    vertical-align: middle;
     display: inline-block;
+    margin-top: 10px;
 }
 
 .question {
     text-align: unset;
     margin-bottom: 0;
+    margin-top: 0;
 }
+
+input[type="submit"] {
+    margin: auto auto;
+    width: 100%;
+    display: block;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+.fortopmargin {
+    margin-top: 30px;
+}
+
+.rectangle {
+    height: 30px;
+}
+

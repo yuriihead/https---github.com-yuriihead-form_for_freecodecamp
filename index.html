@@ -14,16 +14,16 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
-    <div class="content">
+    <div class="form">
         <form id="survey-form" action="">
             <fieldset>
-                <label for="name">Name <input id="name" type="text"></label>
-                <label for="email">Email <input id="email" type="email"></label>
-                <label for="age">Age (optional) <input id="age" type="number"></label>
+                <label for="name">Name <input class="rectangle" id="name" type="text" placeholder="  Enter your name"></label>
+                <label for="email">Email <input class="rectangle" id="email" type="email" placeholder="  Enter your Email"></label>
+                <label for="age">Age (optional) <input class="rectangle" id="age" type="number" placeholder="  Age"></label>
             </fieldset>
             <fieldset>
                 <label for="role">Which option best describes your current role? 
-                    <select id="role">
+                    <select id="role" class="rectangle">
                         <option value="">Select current role</option>
                         <option value="1">Student</option>
                         <option value="2">Full Time Job</option>
@@ -37,8 +37,8 @@
                 <label for="maybe"><input id="maybe" type="radio" class="inline" name="definitely-maybe-not_sure"> Maybe</label>
                 <label for="not_sure"><input id="not_sure" type="radio" class="inline" name="definitely-maybe-not_sure"> Not sure</label>
                 
-                <label for="feature">What is your favorite feature of freeCodeCamp? 
-                    <select id="feature">
+                <label for="feature" class="fortopmargin">What is your favorite feature of freeCodeCamp? 
+                    <select id="feature" class="rectangle">
                         <option value="">Select an option</option>
                         <option value="1">Challenges</option>
                         <option value="2">Projects</option>
@@ -61,8 +61,9 @@
                 <label for="forum"><input id="forum" class="inline" type="checkbox"> Forum</label>
                 <label for="additional_courses"><input id="additional_courses" class="inline" type="checkbox"> Additional Courses</label>
 
-                <label for="suggestions">Any comments or suggestions? <textarea placeholder="Enter your comment here..." name="suggestions" id="suggestions" cols="30" rows="10"></textarea></label>
+                <label for="suggestions" class="fortopmargin">Any comments or suggestions? <textarea placeholder="Enter your comment here..." name="suggestions" id="suggestions" cols="30" rows="4"></textarea></label>
             </fieldset>
+            <input class="rectangle" type="submit" value="Submit">
         </form>
     </div>
 </body>
