@@ -37,10 +37,10 @@ label {
 
 input, select, textarea {
     width: 100%;
-    padding-left: 10px;
     margin-bottom: 30px;
     margin-top: 10px;
     font-family: monospace;
+    border: none;
 }
 
 .inline {
@@ -56,11 +56,6 @@ input, select, textarea {
     margin-top: 0;
 }
 
-input[type="submit"] {
-    margin: auto auto;
-    width: 100%;
-    display: block;
-}
 
 fieldset {
     border: 0;
@@ -80,6 +75,9 @@ input[type="submit"] {
     background-color: rgb(18, 19, 4);
     color: white;
     font-size: 20px;
+    margin: auto auto;
+    width: 100%;
+    display: block;
 }
 
 #title {
